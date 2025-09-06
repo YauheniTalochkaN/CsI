@@ -1,0 +1,14 @@
+&inputph
+    tr2_ph = 1.0d-12
+    prefix = 'csi'
+    outdir = './outdir'
+    fildyn = 'csi.dyn'
+    amass(1) = 132.90545
+    amass(2) = 126.90447
+    fildvscf = 'dvscf'
+    ldisp = .true.
+    epsil = .true.
+    nq1 = 8
+    nq2 = 8
+    nq3 = 8
+/

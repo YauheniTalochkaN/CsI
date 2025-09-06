@@ -1,0 +1,8 @@
+&PROJWFC
+    outdir  = "./outdir"
+    prefix  = "csi" 
+    DeltaE  =  1.00000e-02
+    Emax    =  5.00000e+01
+    Emin    = -5.00000e+01
+    filpdos = 'csi.pdos'
+/

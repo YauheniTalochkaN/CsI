@@ -1,0 +1,5 @@
+&bands
+    outdir = './outdir'
+    prefix = 'csi'
+    filband = 'csi.bands.data'
+/
