@@ -1,12 +1,13 @@
 &input
     asr = 'crystal'
+    read_lr = .true.
     amass(1) = 132.90545
     amass(2) = 126.90447
     flfrc = 'csi.fc'
     flfrq = 'csi.freq'
     flvec = 'csi.modes'
     q_in_band_form = .true.
-    !q_in_cryst_coord = .true.
+    q_in_cryst_coord = .true.
 /
 8
 0.000  0.000  0.000  30  ! Γ

@@ -1,5 +1,6 @@
 &input
     asr = 'crystal'
+    read_lr = .true.
     dos = .true.
     amass(1) = 132.90545
     amass(2) = 126.90447
