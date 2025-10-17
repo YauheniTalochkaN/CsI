@@ -1,6 +1,6 @@
 &input
     fildyn = 'csi.dyn'
-    zasr = 'crystal'
+    zasr = 'simple'
     loto_2d = .false.
     write_lr = .true.
     flfrc = 'csi.fc'
