@@ -1,7 +1,7 @@
 Nvidia HPC:
 	module load nvhpc/25.3
 	ip link show
-	mpirun -np 1 -x HCOLL_MAIN_IB=lo -x UCX_NET_DEVICES=lo
+	mpirun -np 1 -x OMP_NUM_THREADS=20 -x HCOLL_MAIN_IB=lo -x UCX_NET_DEVICES=lo
 
 OpenMP + OpenMPI:
 	module load mpi/openmpi-x86_64
